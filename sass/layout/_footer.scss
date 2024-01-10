@@ -1,0 +1,63 @@
+.footer {
+
+
+
+    div {
+        p {
+            margin: 0;
+        }
+
+        p::before {
+            content: '';
+            height: 0.1px;
+            width: 100%;
+            position: absolute;
+            background-color: $light-gray;
+           top: -20px;
+        }
+    }
+
+    &__icons {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 10px;
+
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 10px;
+
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: inherit;
+                    display: flex;
+                    align-items: center;
+
+                }
+            }
+        }
+    }
+
+    &__contact {
+        @include button();
+        position: relative;
+        left: 70%;
+        bottom: 15px;
+
+        a {
+            text-decoration: none;
+            color: $toc-number;
+            padding: 15px;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            font-family: $content_font;
+        }
+    }
+}

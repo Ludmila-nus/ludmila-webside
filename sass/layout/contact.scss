@@ -1,0 +1,40 @@
+.contact {
+    &__h1 {
+        font-size: 1rem;
+        color: $bg-darker;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+
+    &__h2 {
+        font-size: 0.7rem;
+        color: $bg-darker;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+
+    &__form {
+        background-color: $medium-light-gray;
+
+        p {
+            padding-bottom: 5px;
+        }
+    }
+
+    &__img {
+        width: 20px;
+    }
+
+    &__details {
+        font-size: 0.8rem;
+        color:$toc-text;
+        font-weight: 500;
+        background-color: $light-gray;
+        padding: 10px;
+        address{
+            padding: 8px;
+        }
+
+    }
+
+}

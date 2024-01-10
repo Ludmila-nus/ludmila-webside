@@ -1,0 +1,33 @@
+// all keyframes 
+@keyframes fade-in-out-behind {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+      z-index: 2;
+    }
+    50% {
+      opacity: 0;
+      transform: translateY(-20px);
+      z-index: 2;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+      z-index: 1;
+    }
+  }
+
+  @keyframes line {
+    0%{
+      opacity: 40%;
+      color: $bg-secondary;
+    }
+    50%{
+      opacity: 80%;
+      color: $medium-light-gray;
+    }
+    100%{
+      opacity: 100%;
+      color: $toc-number;
+    }
+  }

@@ -1,4 +1,4 @@
-![my personal webside](my-web.png)
+![my web](my-web-1.png)
 
 ## Welcome to the repository of my personal website project!
 ####  Page under development.

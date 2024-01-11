@@ -1,4 +1,10 @@
 .find-me {
+    @include breakpoint(tablet){
+        .find-me__social-networks{
+            display: none;
+        }
+        
+    }
     display: flex;
     justify-content: flex-end;
     align-content: center;
@@ -6,36 +12,16 @@
     gap: 5px;
     position: relative;
 
-
-    &__social-networks {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        width: 80px;
-
-            &.linkedin {
-               
-               
-            }
-
-            &.github {
-               
-               
-            }
-
-
-    }
-
     &__social-networks-img {
         width: 35px;
         padding-bottom: 5px;
         filter: invert(30%);
+        
     }
 
     &__social-networks-link {
         text-decoration-line: none;
         font-size: 0.8rem;
-        color: $bg-darker;
+        
     }
 }

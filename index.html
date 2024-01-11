@@ -46,44 +46,45 @@
 
 </head>
 
-<body class="inicio">
-  <div class="gradient">
-    <header class="header">
+<body>
 
-      <div class="header__1">
-        <a href="index.html" class="header__a"><span>ludmi</span>la <span>nus</span>sio</a>
+  <header class="header-principal">
+    <div class="container">
+      <div class="header-principal__1">
+        <a href="index.html" class="header-principal__a"><span>ludmi</span>la <span>nus</span>sio</a>
       </div>
 
-      <div class="header__2">
-        <nav class="header__nav">
+      <div class="header-principal__2">
+        <nav class="header-principal__nav">
           <ul>
-            <li><a href="#about-me" class="header_a">about me</a></li>
-            <li><a href="#featured-proyects" class="header__a">proyects</a></li>
+            <li><a href="#about" class="header_a">about me</a></li>
+            <li><a href="#proyects" class="header__a">proyects</a></li>
             <li><a href="#contact" class="a-contact">Contact</a></li>
           </ul>
         </nav>
       </div>
+    </div>
+  </header>
 
-    </header>
-  </div>
 
   <main>
     <div class="hero">
       <div class="container">
         <div class="hero__presentation">
-          <span>Hi, my name is</span>
-          <h1>Ludmila Nussio</h1>
-          <span>I'm an Agronomy Engineer specializing in Full-Stack development</span>
-
-          <p class="hero__description">I am an agricultural engineer specializing in full stack development, currently
-            studying at
-            ConquerBlocks Academy. I am passionate about problem-solving and technological innovation. My engineering
-            background has provided me with skills in project management, teamwork, and overcoming complex challenges
-          </p>
-
+          <img class="hero__img" src="./img/mujer-programadora.png" alt="woman">
+          <p class="hero__p1">Hi, my name is</p>
+          <h1 class="hero__h1">Ludmila Nussio</h1>
+          <p class="hero__p2">Agronomy Engineer specializing in Full-Stack development</p>
+          <div class="hero__description">
+            <p>I'm specializing in full stack development at ConquerBlocks Academy. I am
+              passionate about problem-solving and technological innovation. My engineering background has provided me
+              with skills in project management, teamwork, and overcoming complex challenges.
+            </p>
+            <p>Explore my profile and discover how I can contribute to your projects!</p>
+          </div>
           <div class="hero__skills">
-            <div class="container">
-              <h2>my skills</h2>
+            <h2>my skills</h2>
+            <div class="hero__icons">
               <img src="./img/icons/icons8-html-48.png" alt="html">
               <img src="./img/icons/icons8-css-48.png" alt="css">
               <img src="./img/icons/icons8-sass-48.png" alt="sass">
@@ -94,95 +95,98 @@
               <img src="./img/icons/icons8-github-50.png" alt="github">
             </div>
           </div>
-          <div class="hero__contact-me">
-            <p>Here, I'll share my journey and knowledge in these exciting areas of technology.
-              Explore my profile and discover how I can contribute to your projects!</p>
-           
-            <div id="contact">
-              <h2>Contact me</h2>
-              <h2>ludmilanussio@hotmail.com</h2>
-              <a href="mailto:ludmilanussio@hotmail.com" onclick="copyToClipboard('ludmilanussio@hotmail.com')"><img src="./img/icons/icons8-send-email-48.png" alt="email"></a>
-              <a href=""></a> <!--poner boton de copiar y enviar email-->
-            </div>
+        </div>
 
-            
+      </div>
+    </div>
+    <div class="contact-me">
+      <div class="container">
+        <div id="contact">
+          <h2 class="me">Contact me</h2>
+          <div class="send-email">
+            <h2 class="email">ludmilanussio@hotmail.com</h2>
+            <a href="mailto:ludmilanussio@hotmail.com"><img src="./img/icons/icons8-send-email-48.png" alt="email"></a>
+            <a href=""><img src="./img/icons/icons8-copy-48.png" alt="copy email"></a>
+            <!--poner boton de copiar y enviar email-->
           </div>
         </div>
       </div>
     </div>
+    <div class="about-me">
+      <div class="container">
+        <div id="about">
+          <section class="iam">
+            <h2>Who am I?</h2>
+            <picture class="me">
+              <img src="./img/ludmila.png" alt="Ludmila">
+            </picture>
+            <p>Welcome to my professional journey! </p>
+            <p>I graduated as an Agricultural Engineer in 2011 from the Faculty of Agricultural Sciences at the National
+              University of Córdoba.</p>
+            <p>Throughout my career, I have always had a keen interest in the convergence of
+              technology and agriculture, particularly in areas such as satellite mapping and precision farming
+              techniques like variable-rate seeding.</p>
 
-    <div>
-      <section id="about-me">
+            <p>Over the past year, I have been actively dedicated to training in Full Stack Development. This journey
+              led me to ConquerBlocks Academy, where I continue to hone my skills.</p>
 
-        <h2>About me</h2>
-        <p>Welcome to my professional journey! </p>
-        <p>I graduated as an Agricultural Engineer in 2011 from the Faculty of Agricultural Sciences at the National
-          University of Córdoba.</p>
-        <p>Throughout my career, I have always had a keen interest in the convergence of
-          technology and agriculture, particularly in areas such as satellite mapping and precision farming techniques
-          like variable-rate seeding. This passion has been a driving force in my professional experiences, where I
-          actively sought ways to integrate technology into the agricultural realm.</p>
+            <p>Beyond my professional background, I am passionate about crossfit and volleyball, always striving to push
+              my
+              limits.</p>
 
-        <p>Over the past year, I have been actively dedicated to training in Full Stack Development. This journey led me
-          to ConquerBlocks Academy, where I continue to hone my skills.</p>
+            <p>I am actively seeking exciting opportunities to apply my programming skills and further my professional
+              growth. Thank you for visiting my profile!</p>
 
-        <p>Beyond my professional background, I am passionate about crossfit and volleyball, always striving to push my
-          limits.</p>
+            <!--poner el enlace al pdf del cv/ certificaciones--> 
+            <!-- <li><a href="skills.html">skills</a></li>--> 
 
-        <p>I am actively seeking exciting opportunities to apply my programming skills and further my professional
-          growth. Thank you for visiting my profile!</p>
+        </div>
+      </div>
+    </div>
 
-        <picture class="me">
-          <img src="./img/ludmila.png" alt="Ludmila">
-        </picture>
-        </figure>
+
+    <div class="featured-proyects">
+      <div class="container">
+        <div id="proyects">
+          <h2>My Projects</h2>
+          <!--proyectos descripcion/tecnologia usada/imagen/codigo-->
+        </div>
+      </div>
+    </div>
+    <div class="find-me">
+      <section class="networks">
+        <article class="find-me__social-networks linkedin">
+          <a href="https://www.linkedin.com/in/ludmila-nussio/" title="Linkedin" class="find-me__social-networks-link">
+            <img src="./img/icons/icons8-linkedin-50.png" alt="linkedin" class="find-me__social-networks-img "></a>
+        </article>
+
+        <article class="find-me__social-networks github">
+          <a href="https://github.com/Ludmila-nus" title="github" class="find-me__social-networks-link"><img
+              src="./img/icons/icons8-github-50.png" alt="github" class="find-me__social-networks-img "></a>
+        </article>
 
       </section>
     </div>
 
-    <div class="proyects">
-      <h2 id="featured-proyects">Featured Projects</h2>
-
-    </div>
-
-    <section class="find-me">
-      <article class="find-me__social-networks linkedin">
-        <a href="https://www.linkedin.com/in/ludmila-nussio/" title="Linkedin" class="find-me__social-networks-link">
-          <img src="./img/icons/icons8-linkedin-50.png" alt="linkedin" class="find-me__social-networks-img "></a>
-      </article>
-
-      <article class="find-me__social-networks github">
-        <a href="https://github.com/Ludmila-nus" title="github" class="find-me__social-networks-link"><img
-            src="./img/icons/icons8-github-50.png" alt="github" class="find-me__social-networks-img "></a>
-      </article>
-
-    </section>
-
-
 
   </main>
-
-  <!-- <li><a href="skills.html">skills</a></li>
- <li><a href="certifications.html">certifications</a></li>
- <li><a href="cv.html">curriculum vitae</a></li>-->
-
 
 
 
   <footer class="footer">
     <div class="footer__love">
       <h3>code with </h3>
-      <img src="./img/icons/icons8-heart-50.png" alt="heart">
+      <img src="./img/icons/icons8-heart-50.png" alt="heart" class="footer__heart">
     </div>
 
     <section class="footer__icons">
-      <article class="footer__social-networks linkedin">
-        <a href="https://www.linkedin.com/in/ludmila-nussio/" title="Linkedin" class="footer__social-networks-link">
-          <img src="./img/icons/icons8-linkedin-50.png" alt="linkedin" class="footer__social-networks-img "></a>
+      <article class="footer__social-networks">
+        <a href="https://www.linkedin.com/in/ludmila-nussio/" title="Linkedin" class="footer__link">
+          <img src="./img/icons/icons8-linkedin-50.png" alt="linkedin" class="footer__img "></a>
       </article>
-      <article class="footer__social-networks github">
-        <a href="https://github.com/Ludmila-nus" title="github" class="footer__social-networks-link"><img
-            src="./img/icons/icons8-github-50.png" alt="github" class="footer__social-networks-img "></a>
+      <article class="footer__social-networks">
+        <a href="https://github.com/Ludmila-nus" title="github" class="footer__link"><img
+            src="./img/icons/icons8-github-50.png" alt="github" class="footer__img "></a>
       </article>
     </section>
 

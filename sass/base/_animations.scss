@@ -20,14 +20,44 @@
   @keyframes line {
     0%{
       opacity: 40%;
-      color: $bg-secondary;
+      color: $color-lightblue;
     }
     50%{
       opacity: 80%;
-      color: $medium-light-gray;
+      color: $color-blue;
     }
     100%{
       opacity: 100%;
-      color: $toc-number;
+      color: $color-darkblue;
     }
   }
+
+  @keyframes floatAndBounceAnimation {
+  0%, 100% {
+    transform: translate(0, 0); 
+  }
+  25%, 75%{
+    transform: translate(20px, -10px); 
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+
+  25%, 50%{
+    transform: translate(-20px, -10px);
+  }
+  50% {
+    transform: translate(0, 0); 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

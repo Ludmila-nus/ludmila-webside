@@ -1,3 +1,49 @@
-.header {
+.header-principal {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: $color-white;
   
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+
+  .container{
+    @include flex();
+    max-width: 100%;
+
+  }
+  &__a {
+    text-decoration-line: none;
+    text-transform: capitalize;
+    color: $color-black;
+    font-size: 1.2rem;
+
+
+    span {
+        color: $color-blue;
+        font-weight: 500;
+      }
+    
+  }
+
+  ul {
+    @include reset-list();
+    @include flex();
+
+    li{
+        padding: 0px;
+        margin: 0px;
+        a{
+            display: block;
+            text-decoration-line: none;
+            color: $color-black;
+            text-transform: capitalize;
+            &:hover{
+                color: $color-blue;
+            }
+        }
+    }
+  }
 }

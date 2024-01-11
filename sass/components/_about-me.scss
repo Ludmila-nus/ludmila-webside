@@ -1,0 +1,39 @@
+.about-me {
+    padding-top: 20px;
+    padding-bottom: 60px;
+
+    h2 {
+        @include tittle();
+        padding-bottom: 25px;
+    }
+
+    h2::before {
+        @include line-tittle();
+    }
+
+    h2::after {
+        @include line-tittle-rotate();
+
+    }
+
+    img {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 25px 20px 0px 20px;
+        border-radius: 10px;
+
+        background-image: $gradient;
+    }
+
+    p:first-of-type{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    p{
+        padding: 5px;
+    }
+}

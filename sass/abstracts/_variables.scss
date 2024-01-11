@@ -1,4 +1,4 @@
-$bp-tablet: 768px;
+$bp-tablet: 896px;
 $bp-tablet-horizontal: 1024px;
 $bp-desktop: 1200px;
 $bp-desktop-xl: 1440px;
@@ -9,19 +9,19 @@ $primary-font: 'Jost', sans-serif;
 
 //Colors
 $color-lightblue: #6ac9e8;
-$color-grey: #e2d5cc;
+$color-lightgrey: #f4faff;
+$color-grey: #f0f5fa;
 $color-purple:#291727;
 $color-blue:#1893c7;
 $color-brown:#8d6265;
 $color-green:#2e6d8f;
 $color-darkblue:#2a487b;
 $color-red:#c3594f;
+$color-black:#191717;
+$color-white:rgba(229, 231, 235, 0.98);
 
-$text-link-bg: RGBA(255, 234, 243, 0);
-$text-link-bg-hover: RGBA(0, 205, 238, 0.18);
-
-$new-gradient: linear-gradient(to bottom right, #a2a2a2, #cfcecc);
-$loading: linear-gradient(to right, var(--lighter-gray) 8%, var(--light-gray) 18%, var(--lighter-gray) 33%);
+$gradient-blue: linear-gradient(to bottom, rgba(106, 201, 232, 0.1), rgba(24, 147, 199, 0.1), rgba(42, 72, 123, 0.1));
+$gradient: linear-gradient(to right, rgba($color-red, 0.5),rgba($color-brown, 0.5), rgba($color-green, 0.5));
 
 
 //animaciones

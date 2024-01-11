@@ -41,21 +41,8 @@
     }
 
     &__skills {
-        h2 {
-            @include tittle();
-            padding-bottom: 25px;
-            
-        }
 
-        h2::before{
-            @include line-tittle();
-           // left: 105px;
-        }
 
-        h2::after{
-            @include line-tittle-rotate();
-           // left: -110px;
-        }
     }
 
     &__icons {

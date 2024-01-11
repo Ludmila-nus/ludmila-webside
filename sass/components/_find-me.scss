@@ -1,27 +1,37 @@
 .find-me {
-    @include breakpoint(tablet){
-        .find-me__social-networks{
-            display: none;
+    .networks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 45px;
+        gap: 20px;
+
+
+
+        &__article {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+           
+            h3 {
+                color: $color-black;
+                font-size: 1rem;
+                font-weight: 400;
+               
+            }
         }
-        
-    }
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    align-items: flex-start;
-    gap: 5px;
-    position: relative;
 
-    &__social-networks-img {
-        width: 35px;
-        padding-bottom: 5px;
-        filter: invert(30%);
-        
-    }
+        &__img {
+            width: 35px;
+            color: $color-lightblue;
 
-    &__social-networks-link {
-        text-decoration-line: none;
-        font-size: 0.8rem;
-        
+        }
+
+        &__link {
+            text-decoration-line: none;
+            font-size: 0.8rem;
+
+        }
     }
 }

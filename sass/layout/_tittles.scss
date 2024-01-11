@@ -1,0 +1,19 @@
+.tittles {
+
+    @include tittle();
+    padding-bottom: 25px;
+
+    h2 {
+        grid-column: 2 / 3;
+    }
+
+    h2::before {
+        @include line-tittle();
+       
+    }
+
+    h2::after {
+        @include line-tittle-rotate();
+        
+    }
+}

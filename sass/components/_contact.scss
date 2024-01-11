@@ -1,29 +1,22 @@
 .contact-me {
     padding-top: 40px;
-    padding-bottom: 60px;
-    h2.me {
-        @include tittle();
-        padding-bottom: 25px;
-    }
-    h2.me::before {
-        @include line-tittle();
-    }
-    h2.me::after {
-        @include line-tittle-rotate();
-        
-    }
+    padding-bottom: 10px;
+
     .send-email {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-bottom: 45px;
+        padding-bottom: 15px;
+
         .email {
-            font-size: 1.2rem;
-            color: $color-blue;           
+            font-size: 1rem;
+            color: $color-blue;
         }
-        img{
+
+        img {
             width: 40px;
-            &:hover{
+
+            &:hover {
                 border: 3px solid $color-red;
             }
         }

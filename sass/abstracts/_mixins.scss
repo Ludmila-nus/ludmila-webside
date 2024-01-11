@@ -50,29 +50,33 @@
 }
 
 @mixin tittle() {
-  font-size: 1.5rem;
-  display: flex;
+  font-size: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
   justify-content: center;
+  justify-items: center;
   text-transform: capitalize;
 }
 
 @mixin line-tittle() {
   content: '';
-  height: 2.3px;
+  height: 2.2px;
   width: 130px;
   position: relative;
   background-color: $color-lightblue;
-  left: 130px;
-  top: 33px;
+  display: block;
+  top: 34px;
+  
 }
 
 @mixin line-tittle-rotate() {
   content: '';
-  height: 2.3px;
+  height: 2.2px;
   width: 130px;
   position: relative;
   background-color: $color-lightblue;
-  transform: rotate(3deg);
-  left: -120px;
-  top: 35px;
+  transform: rotate(3.5deg);
+  display: block;
+  
+  
 }

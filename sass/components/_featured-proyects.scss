@@ -2,18 +2,4 @@
     padding-top: 30px;
     padding-bottom: 60px;
 
-
-    h2 {
-        @include tittle();
-        padding-bottom: 25px;
-        
-    }
-
-    h2::before {
-        @include line-tittle();
-    }
-
-    h2::after {
-        @include line-tittle-rotate();
-    }
 }

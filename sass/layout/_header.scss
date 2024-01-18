@@ -1,8 +1,7 @@
 .header-principal {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: $color-white;
-  
+  background-color: $color-grey;
   position: fixed;
   top: 0;
   left: 0;
@@ -16,7 +15,6 @@
   }
   &__a {
     text-decoration-line: none;
-    text-transform: capitalize;
     color: $color-black;
     font-size: 1.2rem;
 

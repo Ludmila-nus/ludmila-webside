@@ -1,6 +1,9 @@
 .hero {
 
-    background-image: $gradient-blue;
+    background-image: url(C:/Users/Usuario/Desktop/proyects/ludmila-webside/img/background-fullstack6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
     &__img {
         width: 80%;
@@ -40,20 +43,7 @@
         padding-bottom: 50px;
     }
 
-    &__skills {
-
-
-    }
-
-    &__icons {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 10px;
-
-        img {
-            width: 38px;
-        }
-    }
+    
 
 
 }

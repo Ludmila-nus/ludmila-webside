@@ -1,0 +1,13 @@
+.skills {
+    
+    padding-bottom: 60px;
+    &__icons {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10px;
+
+        img {
+            width: 38px;
+        }
+    }
+}

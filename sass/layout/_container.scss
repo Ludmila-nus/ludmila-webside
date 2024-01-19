@@ -1,4 +1,9 @@
 .container{
     padding-left: 16px;
     padding-right: 16px;
+    @include breakpoint(tablet){
+        padding-left: 105px;
+        padding-right: 105px;
+
+    }
 }

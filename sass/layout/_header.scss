@@ -17,6 +17,9 @@
     text-decoration-line: none;
     color: $color-black;
     font-size: 1.2rem;
+    @include breakpoint(desktop){
+      font-size: 1.6rem;
+    }
 
 
     span {
@@ -38,6 +41,9 @@
             text-decoration-line: none;
             color: $color-black;
             text-transform: capitalize;
+            @include breakpoint(desktop){
+              font-size: 1.6rem;
+            }
             &:hover{
                 color: $color-blue;
             }

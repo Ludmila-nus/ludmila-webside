@@ -1,28 +1,60 @@
 .footer {
-
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
-    
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+  
+  
 
     &__heart {
-        width: 15%;
+        width: 6%;
+        @include breakpoint(tablet){
+            width: 4%;
+        }
     }
 
 
     &__love {
-        @extend .footer;
+        @include flex();
+        justify-content: center;
+        grid-row: 2 / 2;
+
     }
 
     &__icons {
-        @extend .footer;
+        @include flex();
+        justify-content: center;
+        
 
     }
 
-    &__img {
-        width: 50%;
+    &__social-networks {
+        display: flex;
+        justify-content: center;
+       
+
+        ul {
+            @include reset-list();
+            @include flex();
+            gap: 1px;
+            width: 70%;
+            li {
+                padding: 0px;
+                margin: 0px;
+
+                a {
+                    display: block;
+                    padding: 10px;
+                
+                    &:hover {
+                        color: $color-blue;
+                    }
+                }
+
+                img {
+                    max-width: 100%;
+
+                }
+            }
+
+        }
     }
-
-
 }

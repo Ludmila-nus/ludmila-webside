@@ -1,9 +1,29 @@
 .hero {
 
-    background-image: url(C:/Users/Usuario/Desktop/proyects/ludmila-webside/img/background-fullstack6.jpg);
-    background-size: cover;
+    background-image: url(C:/Users/Usuario/Desktop/proyects/ludmila-webside/img/background-fullstack1.png);
+    background-size: 150%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
+
+    &__presentation{
+        @include breakpoint(desktop) {
+            padding: 40px;
+            display: grid;
+           
+            .one {
+                grid-area: 1 / 2 / span 1 / span 1;
+                padding-top: 100px;
+                
+            }
+            .two {
+                grid-area: 1 / 1 / span 1 / span 1;
+                padding-top: 150px;
+
+            }
+            
+            
+        }
+    }                    
 
     &__img {
         width: 80%;
@@ -15,16 +35,30 @@
         animation: floatAndBounceAnimation 4s ease-in-out infinite;
         padding-bottom: 5px;
 
+        @include breakpoint(tablet) {
+            width: 60%;
+        }
+        @include breakpoint(desktop){
+            width: 100%;
+        }
+
     }
 
     &__p1 {
         color: $color-blue;
         font-size: 1.1rem;
         padding-bottom: 5px;
+        @include breakpoint(desktop){
+            font-size: 1.8rem;
+        }
     }
 
     &__h1 {
         padding-bottom: 5px;
+        font-size: 2rem;
+        @include breakpoint(desktop){
+            font-size: 2.5rem;
+        }
     }
 
     &__p2 {
@@ -32,18 +66,16 @@
         font-size: 1.2rem;
         font-weight: 500;
         padding-bottom: 5px;
-    }
-
-
-    &__h1 {
-        font-size: 2rem;
+        @include breakpoint(desktop){
+            font-size: 1.9rem;
+        }
     }
 
     &__description {
         padding-bottom: 50px;
+        @include breakpoint(desktop){
+            font-size: 1.2rem;
+        }
     }
-
-    
-
 
 }

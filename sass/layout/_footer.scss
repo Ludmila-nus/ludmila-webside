@@ -5,9 +5,12 @@
   
 
     &__heart {
-        width: 6%;
+        width: 5%;
         @include breakpoint(tablet){
-            width: 4%;
+            width: 3%;
+        }
+        @include breakpoint(desktop){
+            width: 2%;
         }
     }
 

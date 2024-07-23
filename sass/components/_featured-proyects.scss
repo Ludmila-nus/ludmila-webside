@@ -3,4 +3,38 @@
     padding-bottom: 60px;
     background-image: $gradient-lightblue;
 
+    .mi-proyect {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+
+        article {
+            figure {
+                display: flex;
+                justify-content: center;               
+                width: 180px;
+                height: 120px;
+                border: 2px solid $color-darkblue;
+                box-shadow: 1px 1px;
+                overflow: hidden;
+
+                .img-article {
+                    margin: 5px;
+                                                  
+                }
+            }
+            .page-icons{
+                a{
+                    img{
+                        width: 10%;
+                    }
+                }
+
+            }
+            
+        }
+    }
+
+
+
 }
